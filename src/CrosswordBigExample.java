@@ -1,0 +1,104 @@
+import java.util.ArrayList;
+
+
+public class CrosswordBigExample {
+
+	Crossword getPuzzle(){
+		Crossword c;
+		String title = "Giant Crossword 24 (http://www.puzzlechoice.com)";
+		int size = 25;
+		ArrayList<Clue> acrossClues = new ArrayList<Clue>();
+		ArrayList<Clue> downClues = new ArrayList<Clue>();
+		
+		acrossClues.add( new Clue( 1, 0, 0, "Left Out", "omitted", false) );
+		acrossClues.add( new Clue( 5, 8, 0, "Selected Passage", "extract", false) );
+		acrossClues.add( new Clue( 9, 16, 0, "Voracious Fish", "barracuda", false) );
+		acrossClues.add( new Clue( 14, 0, 2, "Tally", "total", false) );
+		acrossClues.add( new Clue( 15, 6, 2, "Countries", "nations", false) );
+		acrossClues.add( new Clue( 16, 14, 2, "Fiend", "monster", false) );
+		acrossClues.add( new Clue( 17, 22, 2, "Everyone", "all", false) );
+		acrossClues.add( new Clue( 18, 0, 4, "Huge", "immense", false) );
+		acrossClues.add( new Clue( 19, 8, 4, "Large Oceanic Bird", "albatross", false) );
+		acrossClues.add( new Clue( 20, 18, 4, "Night", "evening", false) );
+		acrossClues.add( new Clue( 21, 0, 6, "Smooth Fabric", "satin", false) );
+		acrossClues.add( new Clue( 23, 6, 6, "Large Group of Musicians", "orchestra", false) );
+		acrossClues.add( new Clue( 26, 16, 6, "Astonishment", "amazement", false) );
+		acrossClues.add( new Clue( 27, 0, 8, "Scales Down", "reduces", false) );
+		acrossClues.add( new Clue( 28, 8, 8, "Scottish Pole", "caber", false) );
+		acrossClues.add( new Clue( 30, 14, 8, "Tibetan Ox", "yak", false) );
+		acrossClues.add( new Clue( 31, 18, 8, "Bullfighter", "matador", false) );
+		acrossClues.add( new Clue( 33, 0, 10, "Supplementary Components", "accessories", false) );
+		acrossClues.add( new Clue( 36, 12, 10, "Gem", "emerald", false) );
+		acrossClues.add( new Clue( 38, 20, 10, "Barrels", "casks", false) );
+		acrossClues.add( new Clue( 40, 0, 12, "Emaciated", "haggard", false) );
+		acrossClues.add( new Clue( 41, 8, 12, "Precaution", "safeguard", false) );
+		acrossClues.add( new Clue( 42, 18, 12, "Flower Arrangement", "corsage", false) );
+		acrossClues.add( new Clue( 43, 0, 14, "Squalid", "seedy", false) );
+		acrossClues.add( new Clue( 44, 6, 14, "Repel", "repulse", false) );
+		acrossClues.add( new Clue( 46, 14, 14, "Lit Up", "illuminated", false) );
+		acrossClues.add( new Clue( 48, 0, 16, "Bland", "insipid", false) );
+		acrossClues.add( new Clue( 50, 8, 16, "Conclusion", "end", false) );
+		acrossClues.add( new Clue( 52, 12, 16, "Bowling area", "green", false) );
+		acrossClues.add( new Clue( 53, 18, 16, "Tooth", "incisor", false) );
+		acrossClues.add( new Clue( 55, 0, 18, "Exuberant", "ebullient", false) );
+		acrossClues.add( new Clue( 58, 10, 18, "Crafted", "fashioned", false) );
+		acrossClues.add( new Clue( 60, 20, 18, "Precise", "exact", false) );
+		acrossClues.add( new Clue( 62, 0, 20, "Patio", "terrace", false) );
+		acrossClues.add( new Clue( 63, 8, 20, "Pirate", "buccaneer", false) );
+		acrossClues.add( new Clue( 66, 18, 20, "Chuckled", "laughed", false) );
+		acrossClues.add( new Clue( 68, 0, 22, "Sprocket", "cog", false) );
+		acrossClues.add( new Clue( 69, 4, 22, "Envisage", "imagine", false) );
+		acrossClues.add( new Clue( 71, 12, 22, "Eight-Sided Polygon", "octagon", false) );
+		acrossClues.add( new Clue( 72, 20, 22, "Lodging House", "hotel", false) );
+		acrossClues.add( new Clue( 73, 0, 24, "Takes Legal Action", "litigates", false) );
+		acrossClues.add( new Clue( 74, 10, 24, "Beer Mug", "tankard", false) );
+		acrossClues.add( new Clue( 75, 18, 24, "Before", "earlier", false) );
+		downClues.add( new Clue( 1, 0, 0, "Acquires", "obtains", false) );
+		downClues.add( new Clue( 2, 2, 0, "Insinuated", "intimated", false) );
+		downClues.add( new Clue( 3, 4, 0, "Claw", "talon", false) );
+		downClues.add( new Clue( 4, 6, 0, "Perilous", "dangerous", false) );
+		downClues.add( new Clue( 5, 8, 0, "Additional", "extra", false) );
+		downClues.add( new Clue( 6, 10, 0, "Hassle", "trouble", false) );
+		downClues.add( new Clue( 7, 12, 0, "Valuable Possession", "asset", false) );
+		downClues.add( new Clue( 8, 14, 0, "Not Permanent", "temporary", false) );
+		downClues.add( new Clue( 9, 16, 0, "Incentive Payment", "bonus", false) );
+		downClues.add( new Clue( 10, 18, 0, "Decay", "rot", false) );
+		downClues.add( new Clue( 11, 20, 0, "Concord", "agreement", false) );
+		downClues.add( new Clue( 12, 22, 0, "Dissimilar", "unalike", false) );
+		downClues.add( new Clue( 13, 24, 0, "Amphibious Reptile", "alligator", false) );
+		downClues.add( new Clue( 20, 18, 4, "Epoch", "era", false) );
+		downClues.add( new Clue( 22, 4, 6, "Essential", "necessary", false) );
+		downClues.add( new Clue( 24, 8, 6, "Desert plants", "cacti", false) );
+		downClues.add( new Clue( 25, 12, 6, "Laconic", "terse", false) );
+		downClues.add( new Clue( 26, 16, 6, "Clumsy", "awkward", false) );
+		downClues.add( new Clue( 27, 0, 8, "Attains", "reaches", false) );
+		downClues.add( new Clue( 29, 10, 8, "Self-Consciously Timid", "bashful", false) );
+		downClues.add( new Clue( 31, 18, 8, "Small or Token Amount", "modicum", false) );
+		downClues.add( new Clue( 32, 22, 8, "Remote", "distant", false) );
+		downClues.add( new Clue( 34, 2, 10, "Young Swans", "cygnets", false) );
+		downClues.add( new Clue( 35, 6, 10, "Commanded", "ordered", false) );
+		downClues.add( new Clue( 37, 14, 10, "Elusive", "evasive", false) );
+		downClues.add( new Clue( 38, 20, 10, "Historic account", "chronicle", false) );
+		downClues.add( new Clue( 39, 24, 10, "Thin", "slender", false) );
+		downClues.add( new Clue( 41, 8, 12, "Sagacious", "sapient", false) );
+		downClues.add( new Clue( 45, 12, 14, "Borders", "edges", false) );
+		downClues.add( new Clue( 47, 16, 14, "Fabric Woven From Flax", "linen", false) );
+		downClues.add( new Clue( 48, 0, 16, "Exactly The Same", "identical", false) );
+		downClues.add( new Clue( 49, 4, 16, "Beating", "pulsating", false) );
+		downClues.add( new Clue( 51, 10, 16, "Lacking", "deficient", false) );
+		downClues.add( new Clue( 53, 18, 16, "Laziness", "indolence", false) );
+		downClues.add( new Clue( 54, 22, 16, "Pasta Dish", "spaghetti", false) );
+		downClues.add( new Clue( 56, 2, 18, "Vertical", "upright", false) );
+		downClues.add( new Clue( 57, 6, 18, "The Night Before", "eve", false) );
+		downClues.add( new Clue( 59, 14, 18, "Inactivity", "inertia", false) );
+		downClues.add( new Clue( 61, 24, 18, "Small Child", "toddler", false) );
+		downClues.add( new Clue( 63, 8, 20, "Extreme Happiness", "bliss", false) );
+		downClues.add( new Clue( 64, 12, 20, "Fruit of The Oak", "acorn", false) );
+		downClues.add( new Clue( 65, 16, 20, "Inflexible", "rigid", false) );
+		downClues.add( new Clue( 67, 20, 20, "Official Guide", "usher", false) );
+		downClues.add( new Clue( 70, 6, 22, "Colony insect", "ant", false) );
+		
+		c = new Crossword(title,size,acrossClues,downClues);
+		return c;
+	}
+}
